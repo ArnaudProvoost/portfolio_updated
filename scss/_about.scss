@@ -1,0 +1,28 @@
+.about-section {
+  &-h2 {
+    color: $primary;
+  }
+}
+
+.profiel-foto {
+  border-radius: 100%;
+  box-shadow: 0 0 5px 6px lighten($primary,20);
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.logo-group {
+  max-width: 300px;
+}
+
+.logo {
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo-cv {
+  font-weight: bold;
+  padding-left: 8px;
+}
+

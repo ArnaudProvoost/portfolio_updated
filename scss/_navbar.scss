@@ -1,0 +1,28 @@
+.navbar-right {
+  font-weight: bold;
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar-right {
+    margin-top: 1rem;
+    padding-right: 20%;
+    transition: all .5s;
+  }
+}
+
+.dropdown-toggle:after {
+  content: none;
+}
+
+.nav-link {
+  transition: all .5s;
+}
+
+.navbar-active {
+  transition: all .5s;
+  margin-top: 0 !important;
+}
+
+.stage {
+  background-color: $gray-100;
+}

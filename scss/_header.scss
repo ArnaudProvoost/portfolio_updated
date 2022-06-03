@@ -1,0 +1,60 @@
+.header {
+  background-image: url("../assets/header.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  left: 0;
+  align-items: center;
+  top: 0;
+}
+
+.mask {
+  background-color: rgba($black, 0.1);
+}
+
+.divider-primary {
+  max-width: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.2rem $primary;
+  border-top: 2px solid;
+  color: $primary;
+}
+
+.header-text {
+  color: $primary;
+  background-color: transparent;
+  position: relative;
+  top: 2rem;
+  text-align: center;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+
+  &-h1 {
+    font-size: 40px;
+  }
+
+  &-p1 {
+    margin-top: 1rem;
+    color: $secondary;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &-p2 {
+    color: $secondary;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .header-text {
+    top: 20rem;
+  }
+}
+
+
