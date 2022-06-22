@@ -77,7 +77,7 @@ gulp.task('copy', () => gulp.src('./src/**/*').pipe(gulp.dest('./dist')));
 
 // RealFavIcon config
 const FAVICON = {
-    name: 'My App', // The name for your mobile app
+    name: 'Porfolio website Arnaud Provoost', // The name for your mobile app
     startImage: './favicon.png', // Original image (min 512*521 px) to start from
     destination: './dist/assets/icons', // Save generated icons and config files inside this folder
     androidThemeColor: '#ffffff', // Theme color for Android app

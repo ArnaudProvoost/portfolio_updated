@@ -10,3 +10,4 @@ window.onscroll = () => {
         navbar.classList.remove('bg-white');
     }
 };
+
