@@ -1,0 +1,2 @@
+const s=document.querySelector(".navbar-right");window.onscroll=()=>{Math.round(window.scrollY/10)>100?(s.classList.add("navbar-active"),s.classList.remove("bg-transparent"),s.classList.add("bg-white")):(s.classList.remove("navbar-active"),s.classList.add("bg-transparent"),s.classList.remove("bg-white"))};
+//# sourceMappingURL=index.js.map
